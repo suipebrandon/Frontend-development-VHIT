@@ -1,0 +1,66 @@
+body{
+    background-color:slategray ;
+    width: 50%;
+    margin-left: 25%;
+}
+nav{
+    height: 2rem;
+    width: 100%;
+    background-color: blanchedalmond;
+
+}
+nav p{
+    color: aliceblue;
+}
+.sec1{
+    margin-top: 10px;
+    height: 10rem;
+    background-color: rebeccapurple;     
+}
+.arc1{
+
+    height: 5rem;
+    margin: 2px;
+    width: 30%;
+    margin-left: 35%;
+    background-color: azure;
+}
+.sec2{
+    display: flex;
+    margin-top: 10px;
+    height: 10rem;
+    background-color: rosybrown;     
+}
+
+.arc2,.arc3{
+    height: 5rem;
+    margin: auto;
+    width: 30%;
+    background-color: azure;
+}
+
+.sec3{
+    margin-top: 10px;
+    height: 10rem;
+    background-color: darkgray;     
+}
+.sec3 img{
+    height: 7rem;
+    width: 100px;
+    background-color: bisque;
+}
+footer{
+    margin-top: 10px;
+    display: flex;
+    height: 10rem;
+    background-color: black;
+}
+footer p {
+    color: aliceblue;
+}
+footer section{
+    height: 5rem;
+    margin: auto;
+    width: 15%;
+    background-color: azure;
+}
