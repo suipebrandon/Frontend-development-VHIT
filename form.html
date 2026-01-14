@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+</head>
+<body>
+    <h1>My first form</h1>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Your information</legend>
+            <label for="name">First name</label>
+            <input type="text" name="name" id="name" required /> <br>
+            <label for="fname">Last name</label>
+            <input type="text" name="fname" id="fname" /> <br>
+            <label for="password">password</label>
+            <input type="password" name="password" /> <br>
+            <label for="tel">Telephone</label>
+            <input type="text" name="tel" id="tel" /> <br> 
+           
+
+            <label for="sex">Select Sex</label>
+                <select name="sex" id="sex" required>
+                    <option value="F">Female</option>
+                    <option value="M">Male</option>
+                    <option value="others">others</option>
+                </select>
+
+        <label for="email">What is your email?</label>
+        <input type="email" name="email" id="email" required >
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Wish</legend>
+
+            <P>
+                Make a Wish
+                <input type="radio" name="wish" value="rich"/> <label id="riche">Be rich</label>
+                <input type="radio" name="wish" value="famous"/> <label id="famous">Be Famous</label>
+                <input type="radio" name="wish" value="intelligent" id="intelligent"/> <label for="riche">Be rich</label>
+                <input type="radio" name="wish" value="else" id="else"/> <label for="else">Else....</label>
+
+            </P>
+
+            <p>
+                <label for="precisions">if "else", precise</label> <br>
+                <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Country</legend>
+            <p>
+                <label for="Country">Where are you living ?</label> <br>
+                <select name="Country" id="Country">
+                    <optgroup label="Europ">
+                        <option value="Cameroon">Cameroon</option>
+                        <option value="Spain">Spain</option>
+                        <option value="italy">Italy</option>
+                        <option value="UK">UK</option>
+                    </optgroup>
+                     <optgroup label="America">
+                        <option value="canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="OHIO">OHIO</option>
+                    </optgroup>
+                     <optgroup label="Asia">
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+
+            <input type="submit" value="send"/>
+            <input type="reset" value="flush">
+
+    
+    </form>
+</body>
+</html>

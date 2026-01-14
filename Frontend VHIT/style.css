@@ -1,0 +1,24 @@
+p{
+    color: darkblue;
+}
+h1{
+    color: darkcyan;
+}
+h2{
+    color: darkgoldenrod;
+}
+h3{
+    color: darkgreen;
+}
+aside{
+    background-color: lightblue;
+}
+footer{
+    background-color: black;
+}
+section{
+    background-color: cadetblue;
+}
+footer p{
+    color: white;
+}
