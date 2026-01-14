@@ -1,5 +1,9 @@
+body{
+    font-size: 1em;    
+}
 p{
     color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1{
     color: darkcyan;
@@ -21,4 +25,10 @@ section{
 }
 footer p{
     color: white;
+}
+a:hover{
+ color: red;
+}
+a:active{
+    color: aqua;
 }
