@@ -49,12 +49,12 @@ a:visited{
 
 }
 .box-2 {
-    bottom: 3px dotted #ccc;
+    border: 3px dotted #ccc;
     padding: 20px;
     margin: 20px 0px;
 }
 .categories {
-    bottom: 1px #ccc;
+    border: 1px solid #ccc;
     padding: 10px;
     border-radius: 15px;
 
@@ -62,4 +62,13 @@ a:visited{
 .categories ul {
     padding: 0;
     list-style: none;
+}
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: solid 2px #666; /* Made it solid, thicker, and lighter color for better visibility */
+    background-image: url('../images/check.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px; /* Adjust these values to change the size */
+    padding-left: 30px; /* Add padding to make room for the image */
 }
