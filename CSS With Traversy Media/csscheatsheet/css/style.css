@@ -9,6 +9,20 @@ body {
     font:bold 20px Arial, Helvetica, sans-serif;
     line-height: 1.6em;
 } 
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+a:hover{
+    color: #ff0000;
+}
+a:active{
+    color: #00ff00;
+}
+a:visited{
+    color: #0000ff; 
+}
 .container{
     width: 80%;
     margin: auto;
@@ -31,6 +45,21 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 0.6em;
-    word-spacing: 1em;
+    word-spacing: 1em; 
 
+}
+.box-2 {
+    bottom: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.categories {
+    bottom: 1px #ccc;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.categories ul {
+    padding: 0;
+    list-style: none;
 }
