@@ -20,13 +20,20 @@ a:hover{
 a:active{
     color: #00ff00;
 }
-a:visited{
-    color: #0000ff; 
-}
 .container{
     width: 80%;
     margin: auto;
-}  
+} 
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+} 
+.button:hover{
+    background: red;
+    color: #fff;
+}
 .box-1 {
     background-color:#333;
     color: #fff;
@@ -61,14 +68,31 @@ a:visited{
 }
 .categories ul {
     padding: 0;
+    padding-left: 20px;
     list-style: none;
 }
 .categories li {
     padding-bottom: 6px;
-    border-bottom: solid 2px #666; /* Made it solid, thicker, and lighter color for better visibility */
+    border-bottom: solid 2px #666;
     background-image: url('../images/check.png');
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 20px 20px; /* Adjust these values to change the size */
-    padding-left: 30px; /* Add padding to make room for the image */
+    background-size: 20px 20px; 
+    padding-left: 30px; 
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], 
+.my-form textarea
+{
+    padding: 8px;
+    width: 100%;
 }
