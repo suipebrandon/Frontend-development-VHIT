@@ -14,12 +14,13 @@ body{
 #main-header{
     background-color: coral;
     color: #fff;
-   
+    height: 50px;
+    
 }
 #navbar{
     background-color: #333;
     color: #fff;
-    
+    margin-top: 0;
 }
 #navbar ul{
     padding: 0;
@@ -39,11 +40,11 @@ body{
     padding-right: 15px;
 } 
 #showcase{
-    background: url('../images/showcase.jpeg');
-    background-position: center right;
-    min-height: 300px;
+    background: url('../images/show.jpeg') no-repeat center /cover;
+    min-height: 200px;
     margin-bottom: 30px;
     text-align: center;
+    color: wheat;
 }
 #showcase h1{
     color: #fff;
@@ -66,4 +67,21 @@ body{
     padding:10px;
     box-sizing: border-box;
     
+}
+#main-footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media(max-width:600px) {
+    #main{
+        width: 100%;
+        float:none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
 }
