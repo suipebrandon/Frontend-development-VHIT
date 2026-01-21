@@ -124,6 +124,9 @@ a:active{
     border:1px solid #000;
     margin-top: 3px;
     position: relative;
+    background-image: url('../images/bg.jpeg');
+    background-size: cover;
+    background-position: center top;
 }
 .p-box h1{
     position: absolute;
